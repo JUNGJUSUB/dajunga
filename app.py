@@ -63,6 +63,8 @@ if st.query_params["cmd"] == "save":
     list()
 elif st.query_params["cmd"] == "delete":
     deleteTb()
+elif st.query_params["cmd"] == "create":
+    createDb()    
 else:
     list()
     
